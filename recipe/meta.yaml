@@ -1,6 +1,6 @@
 {% set name = "JayDeBeApi" %}
-{% set version = "1.1.1" %}
-{% set sha256 = "ba2dfa92c55e39476cea5a4b1a1750d94c8b3d166ed3c7f99601f19f744f2828" %}
+{% set version = "1.2.1" %}
+{% set sha256 = "6b81e5e7f95556dfd2c9586f13d11966a759a73906aa59b036491e381e725c2d" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -32,7 +32,7 @@ about:
   license: LGPL-3.0
   license_family: GPL
   license_file: COPYING
-  summary: 'A Python DB-APIv2.0 compliant library for JDBC Drivers'
+  summary: A Python DB-APIv2.0 compliant library for JDBC Drivers
 
   description: |
     The JayDeBeApi module allows you to connect from Python code to
