@@ -5,7 +5,7 @@ Home: https://github.com/baztian/jaydebeapi
 
 Package license: LGPL-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A Python DB-APIv2.0 compliant library for JDBC Drivers
 
@@ -128,5 +128,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@scopatz](https://github.com/scopatz/)
 * [@sodre](https://github.com/sodre/)
 
